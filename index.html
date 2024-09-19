@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-dashboard">
+        <h1>Weather Dashboard</h1>
+        <div id="location-form">
+            <input type="text" id="location-input" placeholder="Enter location">
+            <button onclick="getWeatherByLocation()">Get Weather</button>
+        </div>
+        <div id="weather-info">
+            <h2 id="city"></h2>
+            <h3 id="current-condition"></h3>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+            <div id="forecast"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
