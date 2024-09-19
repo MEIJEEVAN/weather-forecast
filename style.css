@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    transition: background-image 0.5s;
+}
+
+.weather-dashboard {
+    margin-top: 50px;
+}
+
+#location-form {
+    margin-bottom: 20px;
+}
+
+#weather-info {
+    display: none;
+}
+
+#forecast {
+    margin-top: 20px;
+}
+
+.sunny {
+    background-image: url('images/sunny.jpg');
+}
+
+.cloudy {
+    background-image: url('images/cloudy.jpg');
+}
+
+.rainy {
+    background-image: url('images/rainy.jpg');
+}
+
+.snowy {
+    background-image: url('images/snowy.jpg');
+}
